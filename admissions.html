@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions</title>
+</head>
+<style>
+    fieldset{
+        height: 530px;
+        width: 700px;
+    }
+</style>
+<body>
+    <p>
+    <nav align="right">
+    <a href="homepage.html" target="_self"><button type="button">GO BACK</button></a>
+</nav></p>
+   <center><h1><font color="green"><u>Student's Enrollment Form</u></font></h1></center> 
+    <form action="" method="post">
+    <center>
+        <fieldset>
+            <table cellpadding="5px" cellspacing="5px">
+                <tr>
+                    <td><label for="prog">Which program you want to apply for?</label></td>
+                    <td><select name="program" id="prog">
+                        <option name="program" value="nothing">Select the program</option>
+                        <option name="program" value="Primary">Primary Year Program</option>
+                        <option name="program" value="Middle">Middle Year Program</option>
+                        <option name="program" value="Diploma">Diploma Program</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="sname">Student's Name</label></td>
+                    <td><input type="text" id="sname" name="sfname"placeholder="First Name"></td>
+                    <td><input type="text" id="sname" name="slname" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><input type="radio" id="gender" name="gender">Female
+                        <input type="radio" id="gender" name="gender">Male</td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Students DOB</label></td>
+                    <td><input type="date" id="dob" name="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="pname">Parents/Guadian's Name</label></td>
+                    <td><input type="text" id="pname" name="parentfn" placeholder="First Name"></td>
+                    <td><input type="text" id="pname" name="parentln" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="work">Parents/Guardian's Occupation</label></td>
+                    <td colspan="2"><input type="text" name="occupation" id="word" placeholder="Occupation" size="48"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Current Address</label></td>
+                    <td colspan="2"><input type="text" id="address" name="Line1" placeholder="Street Address Line 1" size="48"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2"><input type="text" id="address" name="Line2" placeholder="Street Address Line 2" size="48"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" placeholder="City" name="city" id="address"></td>
+                    <td><input type="text" placeholder="Region" name="region" id="address"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text"id="address" name="pincode" placeholder="Postal/Zip Code"></td>
+                    <td><input type="text" id="address" name="country" placeholder="Country"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone Number</label></td>
+                    <td><input type="tel" id="phone" maxlength="10" placeholder="Phone Number"></td>        
+                </tr>
+                <tr>
+                    <td><label for="mail">Email</label></td>
+                    <td colspan="2"><input type="email" placeholder="Email" id="mail" name="email" size="48"></td>
+                </tr>
+                <tr>
+                    <td><label for="add info">Additional Information(if any)</label></td>
+                    <td colspan="2"><textarea name="info" id="add info"></textarea></td>
+                </tr>
+            </table>
+            <button type="submit"> SUBMIT</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="reset">CANCEL</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </fieldset>
+    </center>
+    
+    </form>
+</body>
+</html>
